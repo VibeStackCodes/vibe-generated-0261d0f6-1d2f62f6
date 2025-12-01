@@ -1,0 +1,13 @@
+{
+  "projectId": "0261d0f6-f2a0-486c-8b5d-a9ae8b78f31f",
+  "webhookUrl": "https://bumpy-pans-taste.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
